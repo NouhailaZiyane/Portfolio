@@ -1,0 +1,77 @@
+nav{
+    padding: 18px 0;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+    background-color: #ebb7ab;
+    padding-left: 15px;
+    border-radius: 1px 10px;
+   
+}
+.navbar-brand{
+    font-family: 'Tangerine';
+    font-weight: bold;
+    font-size: 30px;
+
+
+}   
+
+.navbar{
+    position: fixed;
+}
+   
+a{
+    color: black;
+   
+}
+span.navbar-toggler-icon{
+    width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 2px solid #fff;
+  transition: all 300ms linear;
+  top: -2px;}
+  span.navbar-toggler-icon:focus {
+	border-bottom: 2px solid #fff;
+}
+nav.navbar .navbar-toggler-icon:after,
+nav.navbar .navbar-toggler-icon:before {
+	width: 24px;
+	position: absolute;
+	height: 2px;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	content: '';
+	z-index: 2;
+	transition: all 300ms linear;
+}
+nav.navbar .navbar-toggler-icon:after {
+	top: 8px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	transform: rotate(45deg);
+	background-color: #fff;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+	transform: translateY(8px) rotate(-45deg);
+	background-color: #fff;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	border-color: transparent;
+}
+.d{
+    font-family: 'Literata';
+    opacity: 0.5;
+}
+.c{
+    font-weight: bold;
+    color: #1c5284;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+}
