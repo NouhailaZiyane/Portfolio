@@ -1,0 +1,26 @@
+div.c{
+    margin-top: 60px;
+}
+.col-12.d{
+    border: 1px solid #1c5284;
+    background-color: #1c5284;
+    color: wheat;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li.n:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    width: 1.3em; /* same as padding-left set on li */
+}
+h3{
+
+}
+
+.col-sm-6 {
+    margin-left: 5px;
+    background-color: #eea899;
+}

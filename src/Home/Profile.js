@@ -16,7 +16,7 @@ export default function Profile() {
               <a href="https://facebook.com/nouhaila2001z/">
                 <i className="fa fa-facebook-square"></i>
               </a> &nbsp;
-              <a href="#">
+              <a href="mailto:nouhailaziyane2901@gmail.com">
                 <i className="fa fa-google-plus-square"></i>
               </a>&nbsp;
               <a href="https://www.instagram.com/nouhaila_ziyane/">
