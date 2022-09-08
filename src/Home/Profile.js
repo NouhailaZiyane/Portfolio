@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     // eslint-disable-next-line react/jsx-no-undef
   
-    <div className="profile">
+    <div className="profile" id="home">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
@@ -45,7 +45,7 @@ export default function Profile() {
                     1000,
                     "Full Stack Dev💻",
                     1000,
-                    "Web Developer🌐",
+                    "DevOps🌐",
                     1000,
                   ]}
                 />

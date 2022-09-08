@@ -1,10 +1,11 @@
 div.c{
     margin-top: 60px;
 }
-.col-12.d{
-    border: 1px solid #1c5284;
+.de{
     background-color: #1c5284;
-    color: wheat;
+    color: white;
+    border: white 1px solid;
+
 }
 ul {
     list-style: none;
@@ -16,11 +17,34 @@ ul {
     font-family: FontAwesome;
     width: 1.3em; /* same as padding-left set on li */
 }
-h3{
-
+h3 {
+ font-weight: bold;
 }
+h1#skills{
+    font-weight: bold;
+   }
+.col-sm-5{
+    margin-top: 15px;
+    border-radius:  10px ;
+   
+}
+#ds{
+    background-color: white;
+    border: #1c5284 1px solid;
 
-.col-sm-6 {
-    margin-left: 5px;
-    background-color: #eea899;
+   
+}
+span.sr-only{
+    background-color: black;
+}
+#ds:hover{
+    background-color: #1c5284;
+    color: white;
+    transform: translateY(5px);
+}
+.de:hover{
+    background-color: white;
+    color: #1c5284;
+    border: #1c5284 1px solid;
+    transform: translateY(5px);
 }
